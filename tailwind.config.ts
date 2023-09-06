@@ -7,6 +7,24 @@ const config: Config = {
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    colors: {
+      red: "#FC3434",
+      black: "#000000",
+      'text-main': "#353535",
+      "text-gray": "#979797",
+      "text-light": "#DDDDDD"
+    }, 
+    boxShadow: {
+      sm: '0px 20px 50px 0px rgba(203, 203, 203, 0.46)',
+      lg: "0px 14.569314956665039px 36.42328643798828px 0px rgba(203, 203, 203, 0.46)",
+
+    },
+    fontSize: {
+
+    },
+    fontFamily: {
+      roboto: 'Roboto, sans-serif',
+    },
     extend: {
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
@@ -14,6 +32,7 @@ const config: Config = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
     },
+    
   },
   plugins: [],
 }
